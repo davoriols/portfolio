@@ -2,12 +2,13 @@
     import Button from "./sidebarbutton.svelte";
     import Avatar from "./avatar.svelte";
     import Contact from "./contact.svelte";
+    import { House, ChefHat, User } from "@lucide/svelte";
 
     const data = {
         buttons: [
-            { name: "home", destination: "/" },
-            { name: "projects", destination: "/projects" },
-            { name: "about", destination: "/about" },
+            { name: "Home", destination: "/", icon: House },
+            { name: "Projects", destination: "/projects", icon: ChefHat },
+            { name: "About", destination: "/about", icon: User },
         ],
     };
 </script>
@@ -21,7 +22,11 @@
     </div>
 
     {#each data.buttons as button}
-        <Button name={button.name} destination={button.destination}></Button>
+        <Button
+            name={button.name}
+            destination={button.destination}
+            Icon={button.icon}
+        ></Button>
     {/each}
 
     <div class="flex-1"></div>
