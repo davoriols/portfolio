@@ -3,5 +3,8 @@
 </script>
 
 <Whitecard>
-    <h1>Contact</h1>
+    <div class="text-[15rem] font-serif">
+        <h1 class="-mt-10">Contact</h1>
+    </div>
+    <p class="text-2xl">Mathematics and computer science student</p>
 </Whitecard>

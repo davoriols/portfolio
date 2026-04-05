@@ -1,12 +1,13 @@
 <script lang="ts">
-    import Button from "./button.svelte";
+    import Button from "./sidebarbutton.svelte";
     import Avatar from "./avatar.svelte";
+    import Contact from "./contact.svelte";
 
     const data = {
         buttons: [
             { name: "home", destination: "/" },
-            { name: "about", destination: "/about" },
             { name: "projects", destination: "/projects" },
+            { name: "about", destination: "/about" },
         ],
     };
 </script>
@@ -16,7 +17,7 @@
         <h1 class="text-4xl">
             <a href="/"> David Oriols </a>
         </h1>
-        <p class="font-mono text-lg m-1">V0.0.2</p>
+        <p class="font-mono text-lg m-1">V0.0.3</p>
     </div>
 
     {#each data.buttons as button}
@@ -24,6 +25,8 @@
     {/each}
 
     <div class="flex-1"></div>
+
+    <Contact></Contact>
 
     <Avatar></Avatar>
 </aside>
