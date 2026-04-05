@@ -12,7 +12,7 @@
     };
 </script>
 
-<aside class="flex flex-col w-xs h-screen">
+<aside class="flex flex-col w-sm h-screen">
     <div class="m-6 text-white">
         <h1 class="text-4xl">
             <a href="/"> David Oriols </a>

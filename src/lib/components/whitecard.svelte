@@ -5,7 +5,7 @@
 </script>
 
 <div
-    class="mt-3 mb-3 mr-3 bg-white rounded-xl flex-1 inset-shadow-sm/20 relative"
+    class="bg-white h-full rounded-xl flex-1 inset-shadow-sm/20 relative overflow-auto"
 >
     {#if back}
         <Back></Back>

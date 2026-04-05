@@ -8,7 +8,9 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<div class="flex-row flex">
+<div class="flex-row flex overflow-hidden h-screen">
     <Sidebar />
-    {@render children()}
+    <div class="pt-3 pr-3 pb-3 flex w-full">
+        {@render children()}
+    </div>
 </div>
