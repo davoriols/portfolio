@@ -5,7 +5,7 @@
 </script>
 
 <div
-    class="bg-white h-full rounded-xl flex-1 inset-shadow-sm/20 relative overflow-y-scroll custom-scroll"
+    class="bg-white h-full rounded-xl flex-1 inset-shadow-sm/20 relative overflow-y-auto"
 >
     {#if back}
         <Back></Back>
