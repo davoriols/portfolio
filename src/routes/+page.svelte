@@ -8,4 +8,5 @@
         <h1 class="ml-33 -mt-40 italic">Oriols</h1>
     </div>
     <p class="text-2xl">Mathematics and computer science student</p>
+    <p class="text-2xl">Website in construction. 🏗️</p>
 </Whitecard>
