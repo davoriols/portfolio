@@ -3,10 +3,10 @@
     // console.log(props.link);
 </script>
 
-<div class="ml-4">
+<div class="ml-4 shrink w-fit xl:w-full 2xl:w-52">
     <a href={props.link} target="_blank">
         <button
-            class="custom-btn flex items-center transition duration-300 hover:shadow-xl hover:bg-wshade rounded-2xl h-18 w-55 text-black"
+            class="custom-btn flex items-center justify-center xl:justify-start transition duration-300 hover:shadow-xl hover:bg-wshade rounded-2xl h-18 w-18 xl:w-full text-black"
             style="--brand-color: {props.bg}; --fg-color: {props.fg}"
         >
             <!-- <Icon class="flex-1" size="28" /> -->
@@ -15,7 +15,7 @@
                 <props.icon></props.icon>
             </div>
 
-            <p class="text-lg font-extrabold">
+            <p class="text-[0rem] xl:text-lg font-extrabold">
                 {props.data}
             </p>
         </button>

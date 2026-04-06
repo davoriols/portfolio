@@ -4,10 +4,10 @@
 </script>
 
 <Whitecard>
-    <div class="text-[15rem] font-serif">
+    <div class="text-[15rem] font-serif shrink">
         <h1 class="-mt-10">Contact</h1>
     </div>
-    <div class="ml-10 mt-10">
+    <div class="ml-10 mt-10 shrink">
         <p class="text-2xl">Lets build something together!</p>
         <br />
         <p class="text-2xl">
