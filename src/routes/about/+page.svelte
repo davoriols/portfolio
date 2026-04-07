@@ -3,11 +3,13 @@
 </script>
 
 <Whitecard>
-    <div class="text-[15rem] font-serif">
+    <div
+        class="text-[5rem] md:text-[8rem] lg:text-[12rem] xl:text-[15rem] font-serif"
+    >
         <h1 class="-mt-10">About me</h1>
     </div>
-    <div class="ml-10 mt-10 w-132">
-        <p class="text-2xl">
+    <div class="sm:text-xl xl:text-2xl mx-6 xl:mx-10 mt-10 xl:w-132">
+        <p class="">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel
             risus sit amet elit dictum fermentum et hendrerit tortor. Curabitur
             molestie auctor justo. Mauris ut ornare orci. Sed erat nisl,

@@ -10,7 +10,7 @@
     {#if back}
         <Back></Back>
     {/if}
-    <div class="ml-40 mt-20">
+    <div class="ml-8 sm:ml-25 lg:ml-40 mt-20">
         {@render children()}
     </div>
 </div>

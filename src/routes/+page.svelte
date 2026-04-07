@@ -3,10 +3,16 @@
 </script>
 
 <Whitecard back={false}>
-    <div class="text-[15rem] font-serif">
+    <div
+        class="text-[6rem] md:text-[8rem] lg:text-[12rem] xl:text-[15rem] font-serif"
+    >
         <h1 class="-mt-10">David</h1>
-        <h1 class="ml-33 -mt-40 italic">Oriols</h1>
+        <h1 class="ml-16 md:ml-20 lg:ml-33 -mt-15 lg:-mt-30 xl:-mt-40 italic">
+            Oriols
+        </h1>
     </div>
-    <p class="text-2xl">Mathematics and computer science student</p>
-    <p class="text-2xl">Website in construction. 🏗️</p>
+    <div class="sm:text-xl xl:text-2xl">
+        <p class="">Mathematics and computer science student</p>
+        <p class="">Website in construction. 🏗️</p>
+    </div>
 </Whitecard>
