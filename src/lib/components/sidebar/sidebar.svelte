@@ -13,12 +13,13 @@
     };
 </script>
 
-<aside class="flex flex-col w-xs shrink-0 h-screen">
+<aside class="flex flex-col w-fit sm:w-xs shrink-0 h-screen">
     <div class="m-6 text-white">
-        <h1 class="text-4xl font-sans -mb-2 font-extrabold">
+        <h1 class="text-4xl sm:text-[0px] font-sans -mb-2 font-extrabold">D</h1>
+        <h1 class="text-[0rem] sm:text-4xl font-sans -mb-2 font-extrabold">
             <a href="/"> David Oriols </a>
         </h1>
-        <p class="font-mono text-lg m-1">V0.0.4</p>
+        <p class="font-mono text-[0rem] sm:text-lg m-1">V0.0.4</p>
     </div>
 
     {#each data.buttons as button}
