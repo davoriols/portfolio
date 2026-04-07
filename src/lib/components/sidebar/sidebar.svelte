@@ -15,7 +15,9 @@
 
 <aside class="flex flex-col w-fit sm:w-xs shrink-0 h-screen">
     <div class="m-6 text-white">
-        <h1 class="text-4xl sm:text-[0px] font-sans -mb-2 font-extrabold">D</h1>
+        <h1 class="text-4xl sm:text-[0px] font-sans -mb-2 font-extrabold">
+            <a href="/"> D</a>
+        </h1>
         <h1 class="text-[0rem] sm:text-4xl font-sans -mb-2 font-extrabold">
             <a href="/"> David Oriols </a>
         </h1>
