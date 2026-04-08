@@ -21,7 +21,7 @@
         <h1 class="text-[0rem] sm:text-4xl font-sans -mb-2 font-extrabold">
             <a href="/"> David Oriols </a>
         </h1>
-        <p class="font-mono text-[0rem] sm:text-lg m-1">V0.0.4</p>
+        <p class="font-mono text-[0rem] sm:text-lg m-1">V0.1.0</p>
     </div>
 
     {#each data.buttons as button}
