@@ -4,7 +4,7 @@
 @import 'tailwindcss';
 
 @theme {
-  --bg: var(--color-blue-400);
+  --color-bg: var(--color-blue-400);
   --color-shade: var(--color-blue-500);
   --color-wshade: var(--color-blue-100);
   --font-mono: "JetBrains Mono", monospace;
@@ -13,5 +13,5 @@
 }
 
 body {
-    background: var(--bg);
+    background: var(--color-bg);
 }

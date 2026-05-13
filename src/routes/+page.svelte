@@ -12,7 +12,10 @@
         </h1>
     </div>
     <div class="sm:text-xl xl:text-2xl">
-        <p class="">Mathematics and computer science student</p>
         <p class="">Website in construction. 🏗️</p>
+        <p class="">
+            It's only those who do nothing that make no mistakes, I suppose.
+        </p>
+        <p class="ml-16 mt-2 text-bg">― Joseph Conrad</p>
     </div>
 </Whitecard>
