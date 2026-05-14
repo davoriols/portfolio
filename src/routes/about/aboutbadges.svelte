@@ -1,81 +1,101 @@
 <script lang="ts">
+    import ARCH from "$lib/assets/tags/ARCH.svg"
+    import Cpp from "$lib/assets/tags/C++.svg"
+    import CATALAN from "$lib/assets/tags/CATALAN.svg"
+    import CLION from "$lib/assets/tags/CLION.svg"
+    import CSS from "$lib/assets/tags/CSS.svg"
+    import ENGLISH from "$lib/assets/tags/ENGLISH.svg"
+    import FRENCH from "$lib/assets/tags/FRENCH.svg"
+    import GIT from "$lib/assets/tags/GIT.svg"
+    import HTML5 from "$lib/assets/tags/HTML5.svg"
+    import JAVASCRIPT from "$lib/assets/tags/JAVASCRIPT.svg"
+    import LATEX from "$lib/assets/tags/LATEX.svg"
+    import NEOVIM from "$lib/assets/tags/NEOVIM.svg"
+    import OBSIDIAN from "$lib/assets/tags/OBSIDIAN.svg"
+    import PYTHON from "$lib/assets/tags/PYTHON.svg"
+    import SPANISH from "$lib/assets/tags/SPANISH.svg"
+    import SVELTE from "$lib/assets/tags/SVELTE.svg"
+    import WEBSTORM from "$lib/assets/tags/WEBSTORM.svg"
+    import ZEN from "$lib/assets/tags/ZEN.svg"
+
+
     const data = {
         languages: [
             {
-                src: "./src/lib/assets/tags/C++.svg",
+                src: Cpp,
                 alt: "c++ logo",
             },
             {
-                src: "./src/lib/assets/tags/PYTHON.svg",
+                src: PYTHON,
                 alt: "python logo",
             },
             {
-                src: "./src/lib/assets/tags/SVELTE.svg",
+                src: SVELTE,
                 alt: "svelte logo",
             },
             {
-                src: "./src/lib/assets/tags/JAVASCRIPT.svg",
+                src: JAVASCRIPT,
                 alt: "javascript logo",
             },
             {
-                src: "./src/lib/assets/tags/HTML5.svg",
+                src: HTML5,
                 alt: "html logo",
             },
             {
-                src: "./src/lib/assets/tags/CSS.svg",
+                src: CSS,
                 alt: "css logo",
             },
             {
-                src: "./src/lib/assets/tags/LATEX.svg",
+                src: LATEX,
                 alt: "latex logo",
             },
         ],
 
         tools: [
             {
-                src: "./src/lib/assets/tags/ZEN.svg",
+                src: ZEN,
                 alt: "zen logo",
             },
             {
-                src: "./src/lib/assets/tags/CLION.svg",
+                src: CLION,
                 alt: "clion logo",
             },
             {
-                src: "./src/lib/assets/tags/NEOVIM.svg",
+                src: NEOVIM,
                 alt: "neovim logo",
             },
             {
-                src: "./src/lib/assets/tags/GIT.svg",
+                src: GIT,
                 alt: "git logo",
             },
             {
-                src: "./src/lib/assets/tags/OBSIDIAN.svg",
+                src: OBSIDIAN,
                 alt: "obsidian logo",
             },
             {
-                src: "./src/lib/assets/tags/WEBSTORM.svg",
+                src: WEBSTORM,
                 alt: "webstorm logo",
             },
             {
-                src: "./src/lib/assets/tags/ARCH.svg",
+                src: ARCH,
                 alt: "arch logo",
             },
         ],
         idiomas: [
             {
-                src: "./src/lib/assets/tags/ENGLISH.svg",
+                src: ENGLISH,
                 alt: "english logo",
             },
             {
-                src: "./src/lib/assets/tags/FRENCH.svg",
+                src: FRENCH,
                 alt: "french logo",
             },
             {
-                src: "./src/lib/assets/tags/SPANISH.svg",
+                src: SPANISH,
                 alt: "spanish logo",
             },
             {
-                src: "./src/lib/assets/tags/CATALAN.svg",
+                src: CATALAN,
                 alt: "catalan logo",
             },
         ],
