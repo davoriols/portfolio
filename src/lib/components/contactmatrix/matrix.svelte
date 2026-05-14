@@ -39,7 +39,7 @@
     };
 </script>
 
-<div class="m-10 mt-20 flex flex-row flex-wrap">
+<div class="m-10 mt-20 flex flex-row">
     {#each data.buttons as button}
         <Matrixbutton props={button}></Matrixbutton>
     {/each}
